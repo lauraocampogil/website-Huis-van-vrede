@@ -1,0 +1,54 @@
+p {
+	width: 100%;
+}
+
+.intro-home {
+	width: 100%;
+}
+
+.zaal {
+	width: 200px;
+	padding-left: 100px;
+}
+
+.zetel {
+	width: 200px;
+}
+
+.brick-1 {
+	width: 30px;
+	position: absolute;
+	padding-top: 20px;
+}
+
+.brick-2 {
+	width: 40px;
+	position: absolute;
+	right: 50px;
+}
+
+.line-1 {
+	position: absolute;
+	width: 25px;
+	left: 28%;
+	top: 70px;
+}
+
+@media (min-width: 768px) {
+	p {
+		width: 50%;
+	}
+
+	.zaal {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 300px;
+	}
+
+	.zetel {
+		position: absolute;
+		bottom: 50px;
+		width: 300px;
+	}
+}

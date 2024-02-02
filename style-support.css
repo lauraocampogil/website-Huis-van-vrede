@@ -1,0 +1,54 @@
+.main-title-contact {
+	font-size: 50px;
+	margin-bottom: 0;
+	color: #46495a;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.support-text {
+	text-align: left;
+}
+
+.plant {
+	width: 200px;
+	padding-left: 80px;
+}
+
+.line-1-fr {
+	position: absolute;
+	width: 40px;
+	top: 60px;
+	right: 15%;
+}
+
+.brick-1 {
+	position: absolute;
+	width: 50px;
+	right: 20px;
+}
+
+@media (min-width: 768px) {
+	.main-title-contact {
+		text-align: left;
+		padding-left: 60px;
+	}
+
+	.support-text {
+		text-align: left;
+		width: 50%;
+	}
+
+	.plant {
+		position: absolute;
+		bottom: 50px;
+		right: 350px;
+	}
+
+	.stoel {
+		position: absolute;
+		width: 200px;
+		top: 150px;
+		right: 100px;
+	}
+}
